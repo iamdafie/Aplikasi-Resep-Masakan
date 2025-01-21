@@ -4,4 +4,5 @@ public class Constans {
     public static String TITLE;
     public static String IMAGE;
     public static String DESCRIPTION;
+    public static String VIDEO;
 }

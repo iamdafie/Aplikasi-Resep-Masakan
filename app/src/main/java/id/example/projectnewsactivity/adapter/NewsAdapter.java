@@ -56,6 +56,7 @@ public class NewsAdapter extends RecyclerView.Adapter {
                     Constans.TITLE = webList.getTitle();
                     Constans.IMAGE = webList.getLink_image();
                     Constans.DESCRIPTION = webList.getDescription();
+                    Constans.VIDEO = webList.getLink_video();
                     Intent intent = new Intent(context, newsActivity.class);
                     Context.startActivity(intent);
                 }

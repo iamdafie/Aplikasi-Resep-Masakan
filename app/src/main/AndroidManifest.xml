@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Latihan2_dafi">
-        <activity android:name=".ui.newsactivity"></activity>
+        <activity android:name=".ui.ActivityChoice"></activity>
+        <activity android:name=".ui.ActivityTts" />
+        <activity android:name=".ui.menuActivity" />
+        <activity android:name=".ui.SplashActivity" />
+        <activity android:name=".ui.newsActivity" />
         <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,6 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
